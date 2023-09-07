@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>ID</th><th>Year</th><th>Make</th><th>Model</th><th>Price</th>
+        </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+    <form>
+        <p>Price:</p>
+        <input type="number" id="price-input" />
+        <button id="button-less-than">Price less than</button>
+    </form>
+
+    <button id="clear-button">Clear</button>
+
+    <form>
+        <p>Make:</p>
+        <input type="text" id="make-input" />
+        <button id="button-make">Sort Make</button>
+    </form>
+</body>
+
+<script src="table-js.js"></script>
+</html>
